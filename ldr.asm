@@ -32,12 +32,12 @@
     ;-----------------------------------------------------------
     ; Bank 0 RAM (0x20 - 0x7F)
     
-CURRENT_POS     EQU     0x20    ; Mevcut Konum (%)
-TARGET_POS      EQU     0x21    ; Hedef Konum (%)
-D1              EQU     0x3A    ; Gecikme 1
+CURRENT_POS     EQU     0x20    ; Current Position
+TARGET_POS      EQU     0x21    ; Target Position
+D1              EQU     0x3A    ; Delay
 LDR_VAL         EQU     0x3C    ; LDR ADC Value
-W_ISR           EQU     0x70    ; Kesme için W kayd? yede?i (Shared RAM)
-STATUS_ISR      EQU     0x71    ; Kesme için STATUS yede?i
+W_ISR           EQU     0x70    ; Memory backup of working register for the interrupt.
+STATUS_ISR      EQU     0x71    ; Memory backup of status register for the interrupt.
 
 ; LDR Threshold Value
 LDR_THRESHOLD   EQU     87      ; 1.7V * 255 / 5V = 87
