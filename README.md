@@ -100,7 +100,7 @@ Reliable synchronization between hardware and software
 
 To ensure system safety and stability:
 
-Temperature values are limited to 10–40 °C
+Temperature values are limited to 10–50 °C
 
 Curtain position values are limited to 0–100%
 
