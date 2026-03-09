@@ -8,6 +8,13 @@ This project implements a microcontroller-based home automation system consistin
 
 The project is developed as part of the Introduction to Microcomputers course and focuses on embedded system design, serial communication, and PC–microcontroller interaction.
 
+## 💡 Personal Contribution
+This project was developed as a cross-disciplinary team effort between Computer Engineering and Electrical-Electronics Engineering students.
+
+My primary responsibilities and technical contributions focused on the software and communication layers:
+* **User Interface (UI) Development:** Designed and coded the Python-based graphical user interface (GUI) from scratch, ensuring smooth user interaction and real-time sensor data visualization.
+* **UART Communication Logic:** Implemented the PC-side API layer to establish reliable, bidirectional serial communication between the desktop interface and the PIC16F877A microcontrollers.
+
 🧩 System Architecture
 
 The system is composed of three main layers:
